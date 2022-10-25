@@ -26,3 +26,7 @@ h1 {
     display: flex;
     justify-content: center;
 }
+
+.buttons {
+    display: inline-block;
+}
