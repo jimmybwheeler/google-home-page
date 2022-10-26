@@ -5,6 +5,8 @@
 
 nav a {
     text-decoration: none;
+    color: white;
+    padding: 10px;
 }
 
 nav {
@@ -14,19 +16,39 @@ nav {
 }
 
 body {
-    background-color: gray;
+    background-color: rgb(65, 65, 65);
 }
 
 h1 {
     font-size: 5.5rem;
     letter-spacing: 0.1rem;
+    margin-top: 3rem;
 }
 
 .container {
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
 }
 
-.buttons {
-    display: inline-block;
+.searchBox {
+    margin-top: 2%;
+    width: 35rem;
+    height: 2rem;
+    border-radius: 1rem;
+    border: solid 1px white;
+}
+
+.searchBox:hover {
+    background-color: gray;
+}
+
+.buttons button {
+    margin-top: 6%;
+}
+
+button {
+    border-radius: 0.3rem;
+    padding: 0.5rem 2rem;
 }
