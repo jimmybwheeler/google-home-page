@@ -3,13 +3,13 @@
     margin: 0;
 }
 
-nav a {
+nav a, footer a {
     text-decoration: none;
     color: white;
     padding: 10px;
 }
 
-nav {
+nav, footer {
     display: flex;
     justify-content: space-between;
     padding: 1.5rem;
