@@ -15,8 +15,24 @@ nav, footer {
     padding: 1.5rem;
 }
 
+
+
 body {
     background-color: rgb(65, 65, 65);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+footer {
+    margin-top: auto;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(36, 36, 36);
+}
+
+footer a {
+    border: solid red 2px;
 }
 
 h1 {
